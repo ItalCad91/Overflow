@@ -168,11 +168,6 @@ app.get(/^(?!\/api).+/, (req, res) => {
   res.sendFile(path.join(__dirname, '../build/index.html'));
 });
 
-// Route for handling all other requests
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../FrontEnd/dist/index.html'));
-});
-
 // Start the server and listen on the specified port
 const PORT = process.env.PORT || 8000;
 const server = http.createServer(app);
