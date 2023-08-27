@@ -165,9 +165,13 @@ app.use(express.static(path.join(__dirname, '../dist')));
 
 // Handle any request that doesn't go to our api routes
 app.get(/^(?!\/api).+/, (req, res) => {
-  res.sendFile(path.join(__dirname, '../dist/index.html'));
+  res.sendFile(path.join(__dirname, '../FrontEnd/dist/index.html'));
 });
 
+// // Route for handling all other requests
+// app.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, '../FrontEnd/dist/index.html'));
+// });
 
 // Start the server and listen on the specified port
 const PORT = process.env.PORT || 8000;
