@@ -24,7 +24,7 @@ app.use(
 );
 
 app.use(express.json());
-app.use(express.static('dist'))
+app.use(express.static('dist'));
 
 // Connect to MongoDB
 mongoose
@@ -161,7 +161,12 @@ app.get('/authenticated', (req, res) => {
 });
 
 // Serve static files from the built React app
-app.use(express.static(path.join(__dirname, '../FrontEnd/dist')));
+app.use(express.static(path.join(__dirname, '../dist')));
+
+// Handle any request that doesn't go to our api routes
+app.get(/^(?!\/api).+/, (req, res) => {
+  res.sendFile(path.join(__dirname, '../build/index.html'));
+});
 
 // Route for handling all other requests
 app.get('/', (req, res) => {
@@ -169,10 +174,8 @@ app.get('/', (req, res) => {
 });
 
 // Start the server and listen on the specified port
-const server = http.createServer(app);
-
-
 const PORT = process.env.PORT || 8000;
+const server = http.createServer(app);
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
