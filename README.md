@@ -9,10 +9,15 @@ We've got tools and things that help people find what they need to build stuff, 
 # To run this project on your machine:
 
 1- Download this repo
+
 2- Open it on VS Code
+
 3- Open 2 Terminals
+
 4- In one terminal cd to server folder
+
 5- In the second terminal cd to frontend folder
+
 6- To start, you can run both with the same command: " npm run dev "
 
 # Screenshots
