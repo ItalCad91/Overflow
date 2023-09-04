@@ -30,7 +30,7 @@ We've got tools and things that help people find what they need to build stuff, 
 
 # Check out the presentation video: 
 
-[Watch Video](https://youtu.be/Z-6kq6ONtjc?si=dcUNVpDZeYEPwt_b)
+[Watch Video](https://www.youtube.com/watch?v=Z-4kq6ONtjc)
 
 
 # Phases
