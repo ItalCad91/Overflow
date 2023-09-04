@@ -1,6 +1,6 @@
 # Fullstack-ChatOverflow
 
-![App Screenshot](./FrontEnd/public/Home.png)
+![App Screenshot](./FrontEnd/public/Home.jpg)
 ![App Screenshot](./FrontEnd/public/chatrooms.png)
 ![App Screenshot](./FrontEnd/public/forums.png)
 ![App Screenshot](./FrontEnd/public/login.png)
