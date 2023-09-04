@@ -39,7 +39,6 @@ mongoose
     console.error('Error connecting to MongoDB:', error);
   });
   
-
 // Set up session middleware
 app.use(
   session({
