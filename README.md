@@ -1,6 +1,6 @@
 # Fullstack-ChatOverflow
 
-![App Screenshot](./FrontEnd/public/Presentation.mp4)
+Check out the presentation video: [Watch Video](./FrontEnd/public/Presentation.mp4)
 
 
 # Overflow
