@@ -2,8 +2,8 @@
 
 ![App Screenshot](./FrontEnd/public/Home.jpg)
 ![App Screenshot](./FrontEnd/public/chatrooms.jpg)
-![App Screenshot](./FrontEnd/public/forums.png)
-![App Screenshot](./FrontEnd/public/login.png)
+![App Screenshot](./FrontEnd/public/forums.jpg)
+![App Screenshot](./FrontEnd/public/login.jpg)
 ![App Screenshot](./FrontEnd/public/chat.gif)
 
 
